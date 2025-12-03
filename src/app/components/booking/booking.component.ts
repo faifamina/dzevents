@@ -47,7 +47,7 @@ export class BookingComponent implements OnInit {
       additionalNotes: ['']
     });
   }
-
+ 
   submit() {
     if (this.bookingForm.invalid) {
       this.bookingForm.markAllAsTouched();
