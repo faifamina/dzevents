@@ -1,0 +1,20 @@
+<div class="container mt-4">
+
+  <h2>{{ event.title }}</h2>
+  <img [src]="event.imageUrl" class="img-fluid mb-3">
+
+  <p>{{  event.description}}</p>
+
+  <h3 class="mt-4">Book This Event</h3>
+
+  <form (ngSubmit)="submitBooking()">
+    <input class="form-control mt-2" placeholder="Owner Name" [(ngModel)]="booking.ownerName" name="ownerName">
+    <input class="form-control mt-2" placeholder="Phone Number" [(ngModel)]="booking.phoneNumber" name="phoneNumber">
+    <input class="form-control mt-2" placeholder="Email" [(ngModel)]="booking.email" name="email">
+    <input class="form-control mt-2" placeholder="Location" [(ngModel)]="booking.location" name="location">
+    <textarea class="form-control mt-2" placeholder="Address" [(ngModel)]="booking.address" name="address"></textarea>
+
+    <button class="btn btn-success mt-3" type="submit">Confirm Booking</button>
+  </form>
+
+</div>

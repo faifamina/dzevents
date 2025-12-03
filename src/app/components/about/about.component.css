@@ -1,0 +1,90 @@
+.about-gallery {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;   /* Makes it responsive */
+}
+
+.about-gallery img {
+  width: 30%;
+  min-width: 220px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  transition: transform 0.3s ease;
+}
+
+.about-gallery img:hover {
+  transform: scale(1.05);
+}
+/* Paragraph styling */
+.about-text {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 25px;
+}
+/* ==================== */
+/* Managing Director Section - Modern Style */
+.md-box {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 18px;
+  overflow: hidden;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.md-photo img {
+  width: 100%;
+  max-width: 350px;
+  height: 100%;
+  object-fit: cover;
+  border-bottom: 4px solid #f1f1f1;
+}
+
+.md-photo {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+}
+
+.md-name {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.md-content {
+  flex: 2;
+  padding: 40px;
+  min-width: 300px;
+}
+
+.md-content h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.md-content p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #444;
+}
+
+/* Responsive for Mobile */
+@media (max-width: 768px) {
+  .md-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .md-content {
+    padding: 20px;
+  }
+}

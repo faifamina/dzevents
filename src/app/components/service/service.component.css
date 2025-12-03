@@ -1,0 +1,41 @@
+.service-container {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+  align-items: center;
+}
+
+.card-left {
+  flex: 1;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
+}
+
+.badge {
+  background: #e8ecf5;
+  color: #556072;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 38px;
+  font-weight: 800;
+  margin-top: 15px;
+}
+
+.card-right img {
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+  height: 550px;
+}
+
+.card-right {
+  flex: 1;
+  border-radius: 20px;
+}

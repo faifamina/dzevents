@@ -1,0 +1,52 @@
+.booking-bg {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('/assets/bookingbg.jpg'); /* change your image name */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 10px;
+}
+
+
+
+.booking-box {
+  width: 100%;
+  max-width: 600px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* Background image */
+.booking-bg {
+  background-image: url('/assets/background.jpg'); /* change image name */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* The white box */
+.booking-box {
+  background: rgba(255, 255, 255, 0.92);
+  padding: 40px;
+  width: 60%;
+  border-radius: 12px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .booking-box {
+    width: 90%;
+    padding: 25px;
+  }
+}

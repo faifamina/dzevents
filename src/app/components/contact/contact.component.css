@@ -1,0 +1,98 @@
+.contact-section {
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+    text-align: center;
+
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  flex-direction: column;   /* Stack icon + text vertically */
+  margin-bottom: 25px;
+}
+
+
+.icon {
+  font-size: 34px;
+  color: #7c33cc; /* Purple tone */
+  margin-right: 15px;
+}
+
+.label {
+  margin: 0;
+  color: #777;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.value {
+  margin: 4px 0 0 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+
+.contact-home {
+  display: flex;
+  justify-content: center;   /* Horizontal center */
+  align-items: center;       /* Vertical center (if height given) */
+  text-align: center;        /* Center the inner text */
+  width: 100%;
+  padding: 40px 0;
+}
+
+.branch-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  background: #fff6f6;
+  padding: 20px 25px;
+  border-radius: 10px;
+  width: fit-content;
+}
+.branch-card1 {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  background: #fff6f6;
+  padding: 20px 25px;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.branch-icon {
+  font-size: 40px;
+  color: #6d3c9c; /* Purple */
+}
+
+.branch-details {
+  line-height: 1.4;
+}
+
+.branch-title {
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #555;
+  margin: 0;
+}
+.branches-wrapper {
+  display: flex;
+  gap: 30px;        /* space between cards */
+  justify-content: center; /* or flex-start if you want them left of page */
+  margin-top: 30px;
+}
+
+.branch-address {
+  font-size: 15px;
+  color: #000;
+  margin: 5px 0 0;
+}
